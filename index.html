@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>See-N-Say Storymaker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>See-N-Say Storymaker</h1>
+    <p id="studentId"></p>
+
+    <section>
+        <h2>Create Your Story</h2>
+
+        <button onclick="handleNoun1Click()">Noun 1</button>
+        <p id="chosenNoun1"></p>
+        <button onclick="handleVerbClick()">Verb</button>
+        <p id="chosenVerb"></p>
+        <button onclick="handleAdjectiveClick()">Adjective</button>
+        <p id="chosenAdjective"></p>
+        <button onclick="handleNoun2Click()">Noun 2</button>
+        <p id="chosenNoun2"></p>
+        <button onclick="handleSettingClick()">Setting</button>
+        <p id="chosenSetting"></p>
+    </section>
+
+    <section>
+        <h2>See Your Story</h2>
+
+        <button onclick="handlePlaybackClick()">Show Story</button>
+        <button onclick="handleRandomClick()">Random Story</button>
+        <button onclick="handleResetClick()">Reset</button>
+
+        <p id="story"></p>
+    </section>
+
+</body>
+
+</html>
